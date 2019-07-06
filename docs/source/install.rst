@@ -4,30 +4,25 @@ Installing
 
 Mill G code Generator
 
-1. Install required dependencies. In a terminal do:
-::
-
-    sudo apt install python3-pip python3-pyqt5 libpci-dev git
-
-2. Install the Mill G code Generator. In a terminal do:
+1. Install the Mill G code Generator. In a terminal do:
 ::
 
     pip install git+https://github.com/jethornton/mill-gcode.git
 
-3. Create a file in your home directory called ``.xsessionrc`` and add the
-following if your using Debian 9 then log out and back in or reboot the PC.
+2. Run the Mill G code Generator. In a terminal do:
+::
 
+    mill-gcode
+    
+3. If you get `mill-gcode: command not found' create a file in your home
+directory called ``.xsessionrc`` and add the following.
 ::
 
   if [ -d $HOME/.local/bin ]; then
     export PATH="$HOME/.local/bin:$PATH"
   fi
 
-4. Run the Mill G code Generator. In a terminal do:
-::
-
-    mill-gcode
-
+Log out and back in or reboot the PC.
 
 To upgrade the Mill G code Generator. In a terminal do:
 ::
