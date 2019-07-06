@@ -10,6 +10,8 @@ Welcome to Mill G code's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   install
+
 
 
 Indices and tables
