@@ -1,0 +1,44 @@
+JT's LinuxCNC Mill G code Generator
+===================================
+John Thornton
+v1.0, (C) 2012
+:doctype: book
+
+link:index.html[The Index]
+
+== 2nd Ops Tab
+
+=== Counterbore
+
+The 'Counterbore Op' will mill a counterbore with a spiral path from the center
+out in a CCW direction the diameter and depth you enter.
+
+image::mill-counterbore-01.png[align="center",width=480]
+
+Mandatory entries are:
+
+* Hole Diameter
+* Hole Depth
+* Tool Diameter
+* Feed
+
+A roughing pass can be done by defining a counterbore hole and deselecting
+the 'Return Location Enable' and the 'End of File Enable'check boxes on the
+'Setup' tab. Generate the G code the paste the G code into your file.
+
+A finishing pass can be done by defining a counterbore hole and reselecting
+the 'Return Location Enable' and the 'End of File Enable' on the 'Setup' tab
+and selecting the 'Finish Path Only' check box on the '2nd Ops' tab in the
+'Counterbore' section. Generate the G code then append the G code into your
+file after the roughing pass.
+
+=== Chamfer
+
+The 'Chamfer Op' will put a chamfer to the depth specified. The 'Depth' button
+will calculate the depth based on the 'Chamfer Diameter' (the OD of the
+chamfer) the 'Tip Angle' and the 'Tip Width' (for a flat tip chamfer tool).
+
+Mandatory entries are:
+
+* Depth
+* Feed

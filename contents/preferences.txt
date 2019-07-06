@@ -1,0 +1,12 @@
+JT's LinuxCNC Mill G code Generator
+===================================
+John Thornton
+v1.0, (C) 2012
+:doctype: book
+
+link:index.html[The Index]
+
+== Preferences
+
+The units radio buttons do nothing at this point. Use the Preamble to specify
+units.

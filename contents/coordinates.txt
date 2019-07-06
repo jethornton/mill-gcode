@@ -1,0 +1,22 @@
+JT's LinuxCNC Mill G code Generator
+===================================
+John Thornton
+v1.0, (C) 2012
+:doctype: book
+
+link:index.html[The Index]
+
+== Coordinates
+
+The Coordinates Tab is where you enter in the X Y location of each 'Hole Op'
+that has been 'Enabled'.
+
+Enter a value in the X Center and press the 'Enter' key, this moves the cursor
+to the Y Center. Enter a value and press the 'Enter' key, this adds a coordinate
+set to the list and puts the cursor back in the X Center entry box for fast and
+easy data entry.
+
+To remove a row click in the row and press 'Remove Row'
+
+To edit a row left click in the row then left click in the box you wish to edit
+then press enter when done editing.

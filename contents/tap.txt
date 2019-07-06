@@ -1,0 +1,21 @@
+JT's LinuxCNC Mill G code Generator
+===================================
+John Thornton
+v1.0, (C) 2012
+:doctype: book
+
+link:index.html[The Index]
+
+== Tap
+
+Tapping Ops require that M3/M4 work with your spindle and you have connected
+spindle feedback as shown in the LinuxCNC manual.
+
+. Select a thread form.
+. Select a thread size.
+. Click on Enable.
+. Add a thread depth as a positive number.
+. Add the tapping RPM.
+. Optional add a Tool# if this is the only Op. If more than one Op the Tool#
+  is mandatory.
+

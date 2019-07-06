@@ -1,0 +1,13 @@
+JT's LinuxCNC Mill G code Generator
+===================================
+John Thornton
+v1.0, (C) 2012
+:doctype: book
+
+link:index.html[The Index]
+
+== Facing
+
+Required items are marked with an asterisk.
+
+Note: Step Over % is whole numbers like 50 means 50% so don't enter in 0.50.

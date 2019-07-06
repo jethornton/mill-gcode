@@ -1,0 +1,23 @@
+JT's LinuxCNC Mill G code Generator
+===================================
+John Thornton
+v1.0, (C) 2012
+:doctype: book
+
+link:index.html[The Index]
+
+== Setup
+
+The 'Setup' tab is where you set the behaviour of the machine when traversing
+from hole to hole.
+
+* 'Clearance Z' - The height to go to before going to the first hole
+* 'Retract Z' - The height to go to after each 'Hole Op'
+* 'Return Location'
+** 'Relative X' - The X coordinate to go to based on the current offsets.
+** 'Relative Y' - The Y coordinate to go to based on the current offsets.
+** 'G53 Z' - The absolute height to raise the Z in machine coordinates.
+
+To do a roughing pass then a finish pass on a counterbore the 'Return Location
+Enable' and the 'End of File Enable' checkboxes have been provided. Please see
+the link:2nd-ops.html[2nd Ops Page].

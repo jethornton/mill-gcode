@@ -1,0 +1,15 @@
+JT's LinuxCNC Mill G code Generator
+===================================
+John Thornton
+v1.0, (C) 2012
+:doctype: book
+
+link:index.html[The Index]
+
+== G code
+
+All enabled Ops will be listed on the left in the order that they will be done.
+
+The 'Send to Axis' button will be enabled if you opened the G code generator
+from the Axis GUI.
+

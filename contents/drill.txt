@@ -1,0 +1,48 @@
+JT's LinuxCNC Mill G code Generator
+===================================
+John Thornton
+v1.0, (C) 2012
+:doctype: book
+
+link:index.html[The Index]
+
+== Drill
+
+Drilling has three possible Ops, Spotting the hole, Drilling the hole and
+Reaming the hole.
+
+=== Spot
+
+If you selected a tap the Hole Diameter will be inserted for you. The Tip Angle
+comes from the Preferences. The 'Depth' button will calculate the depth to
+drill based on the 'Hole Diameter' and the 'Tip Angle' or can be inserted manually.
+
+Mandatory entries are:
+
+* Depth
+* Feed
+
+All other entries are optional.
+
+=== Drill
+
+If you selected a tap the 'Hole Diameter' will be inserted for you. The 'Tip Angle'
+comes from the 'Preferences'. The 'Depth' button will calculate the depth to
+drill based on the 'Hole Depth' and the 'Tip Angle' or can be inserted manually.
+
+Mandatory entries are:
+
+* Depth
+* Feed
+
+All other entries are optional.
+
+=== Ream
+
+Mandatory entries are:
+
+* Depth
+* Feed
+
+All other entries are optional.
+

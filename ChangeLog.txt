@@ -1,0 +1,35 @@
+1.7.7
+Bug Fix drill calc name was the same as the hole ops page
+1.7.04
+Bug Fix facing file save
+1.7.03
+Fix bug in facing step over
+1.7.02
+Add save to file button for facing g code
+1.7.01
+Add save to file button for hole ops g code
+1.7.00
+Add save and open feature for hole ops
+1.6.08
+Bug fix
+1.6.07
+Add content to help file about counterboring roughing and finish paths
+1.6.06
+Add enable for return location and eof and preamble
+Fix counter bore stepover error if you manually enter a stepover percent
+Add number checking to coordinate entry for hole ops
+1.6.05
+Add tool requirements for multiple Ops
+1.6.04
+Fix Preamble not saving to ini file
+1.6.03
+Add content to Help File
+1.6.02
+Add content to Help File and fixed an error or three
+1.6.01
+Add Help File
+1.6.00
+Add counterbore to hole ops
+1.5.10
+Add Send to Axis Button
+Fixed Hole Ops not using preamble

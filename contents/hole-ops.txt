@@ -1,0 +1,24 @@
+JT's LinuxCNC Mill G code Generator
+===================================
+John Thornton
+v1.0, (C) 2012
+:doctype: book
+
+link:index.html[The Index]
+
+== Hole Ops
+
+Hole Ops can be one or more locations as specified in the Coordinates tab.
+At least one location must be entered.
+
+Hole Ops are done in this order:
+
+. Spot
+. Drill
+. Ream
+. Chamfer
+. Tap
+. Counterbore
+
+If more than one Hole Op is enabled then Tool#'s must be used.
+
