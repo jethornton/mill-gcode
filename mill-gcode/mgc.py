@@ -1295,6 +1295,9 @@ class mill:
   def on_entry_activate(self,widget):
     widget.get_toplevel().child_focus(gtk.DIR_TAB_FORWARD)
 
-if __name__ == "__main__":
+def main():
   main = mill()
   gtk.main()
+
+if __name__ == "__main__":
+	main()

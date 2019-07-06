@@ -14,7 +14,7 @@ Mill G code Generator
 
     mill-gcode
     
-3. If you get `mill-gcode: command not found' create a file in your home
+3. If you get `mill-gcode: command not found` create a file in your home
 directory called ``.xsessionrc`` and add the following.
 ::
 
