@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 
 setup(
-    name="Mill G code",
+    name="mgcode",
     version="0.1.2",
     author="John Thornton",
     author_email="<jt@gnipsel.com>",
@@ -19,7 +19,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     entry_points={
-        'gui_scripts': ['mgcode=mgcode.py:main',],
+        'gui_scripts': ['mgcode=mgcode.mgcode:main',],
     },
 )
 
