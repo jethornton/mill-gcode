@@ -14,12 +14,12 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/jethornton/mill-gcode",
-    download_url="https://github.com/jethornton/mct7i96/tarball/master",
+    download_url="https://github.com/jethornton/mill-gcode/archive/master.zip",
     python_requires='>=2',
     packages=find_packages(),
     include_package_data=True,
     entry_points={
-        'gui_scripts': ['mill_gcode=mill_gcode.mgc:main',],
+        'gui_scripts': ['mgcode=mgcode.py:main',],
     },
 )
 
