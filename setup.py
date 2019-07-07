@@ -19,7 +19,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     entry_points={
-        'gui_scripts': ['mill-gcode=mill-gcode.mgc:main',],
+        'gui_scripts': ['mill_gcode=mill_gcode.mgc:main',],
     },
 )
 
